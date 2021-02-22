@@ -1,0 +1,20 @@
+.select-wrapper {
+  width: 100%;
+  height: -moz-fit-content;
+  position: relative;
+
+  &__dropdown-icon {
+    position: absolute;
+    display: inline-flex;
+    height: 100%;
+    width: 1.5rem;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    pointer-events: none;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

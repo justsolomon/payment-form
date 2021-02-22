@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/Product-Sans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/Product-Sans-Bold.ttf');
+  font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: 'Product Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+p {
+  margin: 0;
+}

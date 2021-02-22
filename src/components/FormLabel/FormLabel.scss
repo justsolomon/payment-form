@@ -1,0 +1,15 @@
+.form-label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 11px;
+
+  @media (max-width: 576px) {
+    font-size: 16px;
+  }
+
+  &__required {
+    margin-left: 8px;
+    color: #eb5757;
+  }
+}
